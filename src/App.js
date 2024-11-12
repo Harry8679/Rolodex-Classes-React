@@ -6,22 +6,9 @@ class App extends Component {
   constructor() {
     super();
 
-    // this.state = {
-    //   monsters: [
-    //     {
-    //       id: 1,
-    //       name: 'Freddy'
-    //     },
-    //     {
-    //       id: 2,
-    //       name: 'Jason'
-    //     },
-    //     {
-    //       id: 3,
-    //       name: 'Franck'
-    //     }
-    //   ]
-    // }
+    this.state = {
+      monsters: []
+    }
   }
 
   render() {
