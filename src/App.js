@@ -30,9 +30,7 @@ class App extends Component {
           const searchFiled = event.target.value.toLocaleLowerCase();
           this.setState(() => {
             return { searchFiled };
-          }, () => {
-            console.log({ endingArray: this.state.monsters })
-          })
+          });
         }} />
         {filteredMonsters.map((monster) => (
           <h1 key={monster.id}>{monster.name}</h1>
